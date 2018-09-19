@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro');
 
 body {
-      font-family: 'Mukta Malar', sans-serif;
-      padding: 50px;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 100px;
 }
 
 #profilePic {
               display: block;
               margin: auto;
+              margin-top: 40px;
 }
 
 #mainTitle {
@@ -20,7 +21,29 @@ body {
           text-align: center;
 }
 
-.container {
+#about_container {
             display: block;
             padding: 50px;
+            background-color: #f9f9f9;
+            text-align: center;
+            margin-top: 40px;
+}
+
+#about_container p {
+                    display: block;
+                    margin-left: 400px;
+                    margin-right: 400px;
+                    font-size: 18px;
+                    text-align: left;
+                    margin-top: 40px;
+}
+
+.sectionTitle {
+                font-size: 35px;
+                font-weight: bolder;
+}
+
+.divider {
+          width: 20px;
+          color: #d6d6d6;
 }
