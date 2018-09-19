@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro');
 
 body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Mukta Malar', sans-serif;
       padding: 50px;
 }
 
 #profilePic {
               display: block;
+              margin: auto;
+}
+
+#mainTitle {
+            display: block;
+            text-align: center;
+}
+
+#tagLine {
+          display: block;
+          text-align: center;
+}
+
+.container {
+            display: block;
+            padding: 50px;
 }
