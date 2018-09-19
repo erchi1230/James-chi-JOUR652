@@ -57,4 +57,21 @@ body {
 .divider {
           width: 20px;
           color: #d6d6d6;
+          margin-top: 20px;
+          margin-bottom: 20px;
+}
+
+#exp_container {
+            display: block;
+            padding: 50px;
+            margin-top: 40px;
+            text-align: center;
+}
+
+.exp_card {
+            width: 70%;
+            border-style: solid;
+            margin: auto;
+            margin-bottom: 30px;
+            box-shadow: 0px 6px 10px 15px #888888;
 }
