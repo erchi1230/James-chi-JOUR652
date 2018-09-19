@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro');
+
+body {
+      font-family: 'Roboto', sans-serif;
+      padding: 50px;
+}
+
+#profilePic {
+              display: block;
+}
