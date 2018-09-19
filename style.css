@@ -2,7 +2,13 @@
 
 body {
       font-family: 'Roboto', sans-serif;
-      padding-top: 100px;
+      padding-top: 50px;
+}
+
+#logo {
+        display: block;
+        width: 200px;
+        margin: auto;
 }
 
 #profilePic {
