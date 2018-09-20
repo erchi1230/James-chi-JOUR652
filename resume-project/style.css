@@ -1,12 +1,15 @@
+/* styles for my resume */
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro');
 
+/* set the text style for body elements*/
 body {
-      font-family: 'Open Sans', 'Arial', sans-serif;
-
+      font-family: 'Open Sans', Arial, sans-serif;
       color: #444;
       font-weight: 400;
 }
 
+/* style for my name */
 #name {
         font-size: 3em;
         color: #33485e;
@@ -14,12 +17,14 @@ body {
         text-align: center;
 }
 
-#jobTitle {
+/* Set my job titles to the designated style */
+#Title {
             text-transform: uppercase;
             font-size: 1.5em;
             color: #33485e;
 }
 
+/* Set the class for every setction title */
 .sectionTitle {
                 font-size: 1.5em;
                 text-transform: uppercase;
@@ -30,26 +35,31 @@ body {
 
 }
 
+/* Set the style for all job titles in Experience section */
 .jobTitle {
             font-weight: 600;
             font-size: 1.5em;
 }
 
+/* Set the sytle of all organization names in Experience section */
 .orgName {
           font-size: 1.5em;
           font-weight: 400;
 }
 
+/* Set the sytle of all duration in Experience section */
 .jobDate {
           font-weight: 400;
           font-style: italic;
           font-size: 1em;
 }
 
+/* Set the sytle of content in Education section */
 .edu {
       font-size: 1em;
 }
 
+/* Set the sytle of content in Skills section */
 .skills {
           font-size: 1em;
 }
