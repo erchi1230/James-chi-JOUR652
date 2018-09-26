@@ -8,7 +8,7 @@ body {
       color: #444;
       font-size: 12px;
       font-weight: 400;
-}
+      }
 
 /* style for my name */
 #name {
@@ -16,31 +16,38 @@ body {
         color: #33485e;
         text-transform: uppercase;
         text-align: center;
-}
+        border-bottom: 1px solid #33485e;
+        width: 60%;
+        min-width: 300px;
+        margin: 0 auto;
+        }
 
 /* Set my job titles to the designated style */
 #Title {
             text-transform: uppercase;
             font-size: 1.5em;
             color: #33485e;
-}
+            }
 
 /* Set the class for every setction title */
-.sectionTitle {
+.sectionheader {
                 font-size: 1.5em;
                 text-transform: uppercase;
                 display: block;
                 background-color: #33485e;
                 color: white;
-                font-weight: 600;
-
-}
+                font-weight: 400;
+                margin: 20px 0 10px 0;
+                width: 70%;
+                min-width: 300px;
+                padding-left: 20px;
+                }
 
 /* Set the style for all job titles in Experience section */
-.jobTitle {
+.jobtitle {
             font-weight: 600;
             font-size: 1.5em;
-}
+            }
 
 /* Set the sytle of all organization names in Experience section */
 .orgName {
