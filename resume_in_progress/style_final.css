@@ -134,12 +134,24 @@ ul {
     list-style: none;
     }
 
-.edu_block {
-            display: inline-block;
-            width: 40%;
-            max-width: 40%;
-            margin: 0px 20px 0px 20px;
-            }
+.edu_section {
+              margin: 0 auto;
+              overflow: auto;
+              }
+
+#edu_block_01 {
+                display: inline-block;
+                width: 50%;
+                max-width: 50%;
+                float: left;
+                }
+
+#edu_block_02 {
+                display: inline-block;
+                width: 50%;
+                max-width: 50%;
+                float: right;
+                }
 
 .school_logo {
               width: 180px;
@@ -148,14 +160,24 @@ ul {
               margin-top: 20px;
               }
 
-.edu_block h3 {
+#edu_block_01 h3 {
                   font-weight: 400;
                   margin-bottom: 0;
                   }
-.edu_block h4 {
-                font-weight: 300;
-                margin-bottom: 0;
-                }
+#edu_block_01 h4 {
+                  font-weight: 300;
+                  margin-bottom: 0;
+                  }
+
+#edu_block_02 h3 {
+                  font-weight: 400;
+                  margin-bottom: 0;
+                  }
+
+#edu_block_02 h4 {
+                  font-weight: 300;
+                  margin-bottom: 0;
+                  }
 
 #skill_container {
                   display: block;
