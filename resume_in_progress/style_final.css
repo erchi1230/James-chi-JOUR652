@@ -138,11 +138,14 @@ ul {
             display: inline-block;
             width: 40%;
             max-width: 40%;
-            margin: 40px 20px 0px 20px;
+            margin: 0px 20px 0px 20px;
             }
 
 .school_logo {
-              width: 200px;
+              width: 180px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              margin-top: 20px;
               }
 
 .edu_block h3, h4 {
