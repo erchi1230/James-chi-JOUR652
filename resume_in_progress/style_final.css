@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro|Poppins|Heebo');
+@import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro|Poppins|Heebo:100,300,400,500,700,800,900');
 
 body {
       font-family: 'Heebo', sans-serif;
@@ -20,12 +20,9 @@ body {
 #mainTitle {
             display: block;
             text-align: center;
+            font-weight: 100;
+            font-kerning: normal;
             }
-
-#tagLine {
-          display: block;
-          text-align: center;
-          }
 
 #intro_container {
                   display: block;
@@ -35,6 +32,7 @@ body {
 #about_container {
             display: block;
             padding: 50px;
+            padding-top: 90px;
             background-color: #f9f9f9;
             text-align: center;
             margin-top: 40px;
@@ -128,6 +126,7 @@ body {
 #edu_container {
                 text-align: center;
                 background-color: #f9f9f9;
+                padding: 90px 50px 90px 50px;
                 }
 
 ul {
