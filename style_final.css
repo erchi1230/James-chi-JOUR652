@@ -186,3 +186,38 @@ ul {
                   margin-top: 40px;
                   text-align: center;
                   }
+
+#skill_content {
+                overflow: auto;
+                }
+
+.skill_block {
+              display: inline-block;
+              text-align: center;
+              margin: 40px 40px 90px 40px;
+              padding: 30px;
+              text-align: center;
+              height: 100%;
+              vertical-align: top;
+              }
+
+.skill_block ul {
+                  margin: 0 auto;
+                  padding: 0px;
+                  font-weight: 300;
+                  }
+
+.skill_block li {
+                  margin: 10px;
+                  }
+
+.blockTag {
+            border: 1px solid #4A4A4A;
+            width: 160px;
+            margin: 0 auto;
+            z-index: 5;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-weight: 500;
+            border-radius: 6px;
+            }
