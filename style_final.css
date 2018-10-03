@@ -179,16 +179,13 @@ h5 {
                 text-align: center;
                 background-color: #f9f9f9;
                 padding: 90px 50px 90px 50px;
+                overflow: auto;
+                margin: 0 auto;
                 }
 
 ul {
     list-style: none;
     }
-
-.edu_section {
-              margin: 0 auto;
-              overflow: auto;
-              }
 
 #edu_block_01 {
                 display: inline-block;
