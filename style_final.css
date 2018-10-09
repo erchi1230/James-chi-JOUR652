@@ -106,11 +106,12 @@ h5 {
 
 .sectionTitle {
                 font-size: 35px;
-                font-weight: bolder;
+                font-weight: 500;
                 margin: 0 auto;
                 margin-bottom: 0;
                 margin-top: 0;
                 display: block;
+                text-transform: uppercase;
                 }
 
 .divider {
@@ -238,21 +239,18 @@ ul {
 
 #skill_container {
                   display: block;
-                  padding: 50px;
-                  margin-top: 40px;
+                  padding: 90px 50px 90px 50px;
                   text-align: center;
                   }
 
 #skill_content {
                 margin: 0 auto;
                 display: inline-block;
-                padding-bottom: 90px;
                 }
 
 .skill_block {
               display: inline-block;
               text-align: center;
-              margin: 0px 0px 90px 0px;
               padding: 0px 50px 0 50px;
               text-align: center;
               height: 100%;
@@ -281,7 +279,18 @@ ul {
             font-weight: 500;
             }
 
-.material-icons {
-                  font-size: 200px;
+.skill_icons {
+                  width: 100px;
                   margin-bottom: 50px;
                   }
+
+#contact_container {
+                    display: block;
+                    padding: 90px 50px 90px 50px;
+                    text-align: center;
+                    background-image: url("img/dark_bg.jpg");
+                    background-position: center; /* Center the image */
+                    background-repeat: no-repeat; /* Do not repeat the image */
+                    background-size: cover; /* Resize the background image to cover the entire container */
+                    color: #FFFFFF;
+                    }
