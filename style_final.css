@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Mukta|Mukta+Malar|Open+Sans|Roboto|Source+Sans+Pro|Poppins|Heebo:100,300,400,500,700,800,900');
 
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-100 { font-size: 100px; color: #4A4A4A; }
+
 body {
       font-family: 'Heebo', sans-serif;
       }
@@ -110,8 +116,8 @@ h5 {
 .divider {
           width: 20px;
           color: #d6d6d6;
-          margin-top: 40px;
-          margin-bottom: 40px;
+          margin-top: 50px;
+          margin-bottom: 50px;
           display: block;
           }
 
@@ -240,13 +246,14 @@ ul {
 #skill_content {
                 margin: 0 auto;
                 display: inline-block;
+                padding-bottom: 90px;
                 }
 
 .skill_block {
               display: inline-block;
               text-align: center;
-              margin: 40px 0px 90px 0px;
-              padding: 30px;
+              margin: 0px 0px 90px 0px;
+              padding: 0px 50px 0 50px;
               text-align: center;
               height: 100%;
               vertical-align: top;
@@ -273,3 +280,8 @@ ul {
             padding: 10px;
             font-weight: 500;
             }
+
+.material-icons {
+                  font-size: 200px;
+                  margin-bottom: 50px;
+                  }
