@@ -116,11 +116,19 @@ h5 {
 
 .divider {
           width: 20px;
-          color: #d6d6d6;
+          border-top: 1px solid #d6d6d6;
           margin-top: 50px;
           margin-bottom: 50px;
           display: block;
           }
+
+.divider_light {
+                width: 20px;
+                border-top: 1px solid #d6d6d6;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                display: block;
+                }
 
 #exp_container {
             display: block;
@@ -294,3 +302,12 @@ ul {
                     background-size: cover; /* Resize the background image to cover the entire container */
                     color: #FFFFFF;
                     }
+
+.icon_btn {
+            display: inline-block;
+            width: 200px;
+            }
+
+.icons {
+        width: 60px;
+        }
