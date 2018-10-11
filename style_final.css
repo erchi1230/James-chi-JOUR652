@@ -76,6 +76,7 @@ h5 {
             display: block;
             text-align: center;
             font-weight: 300;
+            font-size: 30px;
             }
 
 #intro_container {
@@ -101,7 +102,7 @@ h5 {
                     }
 
 .sectionTitle {
-                font-size: 35px;
+                font-size: 40px;
                 font-weight: 600;
                 font-family: 'Avenir Next';
                 margin: 0 auto;
@@ -170,7 +171,7 @@ h5 {
 .jobTitle h3 {
               margin: 0;
               font-weight: 500;
-              font-size: 1.25em;
+              font-size: 1.2em;
               }
 
 .jobTitle h4 {
