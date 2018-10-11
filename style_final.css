@@ -67,8 +67,9 @@ h5 {
 
 #profilePic {
               display: block;
-              margin: auto;
+              margin: 0 auto;
               width: 250px;
+              margin-bottom: 50px;
               }
 
 #mainTitle {
