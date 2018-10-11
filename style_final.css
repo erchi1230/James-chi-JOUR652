@@ -207,16 +207,13 @@ ul {
 
 #edu_block_01 {
                 display: inline-block;
-                width: 50%;
-                max-width: 50%;
-                float: left;
+
                 }
 
 #edu_block_02 {
                 display: inline-block;
-                width: 50%;
-                max-width: 50%;
-                float: right;
+
+
                 }
 
 .school_logo {
