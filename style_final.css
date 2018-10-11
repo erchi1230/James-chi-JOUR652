@@ -295,7 +295,7 @@ ul {
 
 #contact_container {
                     display: block;
-                    padding: 90px 50px 30px 50px;
+                    padding: 90px 50px 20px 50px;
                     text-align: center;
                     background-image: url("img/dark_bg.jpg");
                     background-position: center; /* Center the image */
@@ -439,4 +439,9 @@ ul {
 .icons {
         width: 50px;
         margin-bottom: 10px;
+        }
+
+footer {
+        margin-top: 50px;
+        font-weight: 300;
         }
