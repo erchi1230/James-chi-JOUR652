@@ -76,7 +76,6 @@ h5 {
             display: block;
             text-align: center;
             font-weight: 300;
-            font-kerning: normal;
             }
 
 #intro_container {
@@ -106,12 +105,14 @@ h5 {
 
 .sectionTitle {
                 font-size: 35px;
-                font-weight: 500;
+                font-weight: 600;
+                font-family: 'Avenir Next';
                 margin: 0 auto;
                 margin-bottom: 0;
                 margin-top: 0;
                 display: block;
                 text-transform: uppercase;
+                letter-spacing: 2px;
                 }
 
 .divider {
@@ -294,7 +295,7 @@ ul {
 
 #contact_container {
                     display: block;
-                    padding: 90px 50px 90px 50px;
+                    padding: 90px 50px 30px 50px;
                     text-align: center;
                     background-image: url("img/dark_bg.jpg");
                     background-position: center; /* Center the image */
@@ -303,13 +304,139 @@ ul {
                     color: #FFFFFF;
                     }
 
-.icon_btn {
+#btn_mail {
             display: inline-block;
-            width: 200px;
-            margin: 20px;
+            margin: 0px 20px;
             padding: 50px;
+            height: 210px;
+            background: none;
+            border: none;
             }
 
+#cta_mail {
+            color: white;
+            height: 24px;
+            }
+
+#cta_mail p{
+            display: none;
+            font-size: 1em;
+            }
+
+#btn_mail:hover {
+                  display: inline-block;
+                  margin: 0px 20px;
+                  padding: 50px;
+                  height: 210px;
+                  background: none;
+                  border: 1px solid white;
+                  cursor: pointer;
+                  }
+
+#btn_mail:hover #cta_mail p{
+                            display: block;
+                            }
+
+#btn_twitter {
+              display: inline-block;
+              margin: 0px 20px;
+              padding: 50px;
+              height: 210px;
+              background: none;
+              border: none;
+              }
+
+#cta_tweet {
+            color: white;
+            height: 24px;
+            }
+
+#cta_tweet p{
+              display: none;
+              font-size: 1em;
+              }
+
+#btn_twitter:hover {
+                    display: inline-block;
+                    margin: 0px 20px;
+                    padding: 50px;
+                    height: 210px;
+                    background: none;
+                    border: 1px solid white;
+                    cursor: pointer;
+                    }
+
+#btn_twitter:hover #cta_tweet p{
+                                display: block;
+                                }
+
+#btn_linkedin {
+                display: inline-block;
+                margin: 0px 20px;
+                padding: 50px;
+                height: 210px;
+                background: none;
+                border: none;
+                }
+
+#cta_linkedin {
+                color: white;
+                height: 24px;
+                }
+
+#cta_linkedin p{
+                display: none;
+                font-size: 1em;
+                }
+
+#btn_linkedin:hover {
+                      display: inline-block;
+                      margin: 0px 20px;
+                      padding: 50px;
+                      height: 210px;
+                      background: none;
+                      border: 1px solid white;
+                      cursor: pointer;
+                      }
+
+#btn_linkedin:hover #cta_linkedin p{
+                                  display: block;
+                                  }
+
+#btn_github {
+                display: inline-block;
+                margin: 0px 20px;
+                padding: 50px;
+                height: 210px;
+                background: none;
+                border: none;
+                }
+
+#cta_github {
+              color: white;
+              height: 24px;
+              }
+
+#cta_github p{
+                display: none;
+                font-size: 1em;
+                }
+
+#btn_github:hover {
+                    display: inline-block;
+                    margin: 0px 20px;
+                    padding: 50px;
+                    height: 210px;
+                    background: none;
+                    border: 1px solid white;
+                    cursor: pointer;
+                    }
+
+#btn_github:hover #cta_github p{
+                                display: block;
+                                }
+
 .icons {
-        width: 40px;
+        width: 50px;
+        margin-bottom: 10px;
         }
