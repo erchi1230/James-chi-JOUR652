@@ -89,7 +89,6 @@ h5 {
             display: block;
             padding: 90px 50px;
             text-align: center;
-            margin-top: 40px;
             }
 
 #about_container p {
@@ -99,7 +98,6 @@ h5 {
                     font-weight: 300;
                     text-align: left;
                     margin: 0 auto;
-                    margin-bottom: 40px;
                     }
 
 .sectionTitle {
@@ -158,6 +156,10 @@ h5 {
                   box-shadow: 0 8px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
                   padding: 30px;
                   }
+
+.exp_card:last-child {
+                            margin-bottom: 0px;
+                            }
 
 .jobTitle {
             display: inline-block;
