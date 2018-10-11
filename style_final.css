@@ -86,10 +86,10 @@ h5 {
                   }
 
 #about_container {
-            display: block;
-            padding: 90px 50px;
-            text-align: center;
-            }
+                  display: block;
+                  padding: 90px 50px;
+                  text-align: center;
+                  }
 
 #about_container p {
                     display: block;
@@ -129,15 +129,14 @@ h5 {
                 }
 
 #exp_container {
-            display: block;
-            padding: 90px 50px;
-            text-align: center;
-            background-color: #f9f9f9;
-            }
+                display: block;
+                padding: 90px 50px;
+                text-align: center;
+                background-color: #f9f9f9;
+                }
 
 .exp_card {
             width: 70%;
-            /*border-radius: 2px;*/
             margin: auto;
             margin-bottom: 40px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -150,7 +149,6 @@ h5 {
 
 .exp_card:hover {
                   width: 70%;
-                  /*border-radius: 2px;*/
                   margin: auto;
                   margin-bottom: 40px;
                   box-shadow: 0 8px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
@@ -158,8 +156,8 @@ h5 {
                   }
 
 .exp_card:last-child {
-                            margin-bottom: 0px;
-                            }
+                      margin-bottom: 0px;
+                      }
 
 .jobTitle {
             display: inline-block;
@@ -207,16 +205,9 @@ ul {
     list-style: none;
     }
 
-#edu_block_01 {
-                display: inline-block;
-
-                }
-
-#edu_block_02 {
-                display: inline-block;
-
-
-                }
+.edu_block {
+            display: inline-block;
+            }
 
 .school_logo {
               width: 180px;
@@ -225,24 +216,15 @@ ul {
               margin-top: 20px;
               }
 
-#edu_block_01 h3 {
-                  font-weight: 400;
-                  margin-bottom: 0;
-                  }
-#edu_block_01 h4 {
-                  font-weight: 300;
-                  margin-bottom: 0;
-                  }
+.edu_block h3 {
+                font-weight: 400;
+                margin-bottom: 0;
+                }
 
-#edu_block_02 h3 {
-                  font-weight: 400;
-                  margin-bottom: 0;
-                  }
-
-#edu_block_02 h4 {
-                  font-weight: 300;
-                  margin-bottom: 0;
-                  }
+.edu_block h4 {
+                font-weight: 300;
+                margin-bottom: 0;
+                }
 
 #skill_container {
                   display: block;
@@ -288,9 +270,9 @@ ul {
             }
 
 .skill_icons {
-                  width: 100px;
-                  margin-bottom: 50px;
-                  }
+              width: 100px;
+              margin-bottom: 50px;
+              }
 
 #contact_container {
                     display: block;
@@ -317,10 +299,10 @@ ul {
             height: 24px;
             }
 
-#cta_mail p{
-            display: none;
-            font-size: 1em;
-            }
+#cta_mail p {
+              display: none;
+              font-size: 1em;
+              }
 
 #btn_mail:hover {
                   display: inline-block;
@@ -332,9 +314,9 @@ ul {
                   cursor: pointer;
                   }
 
-#btn_mail:hover #cta_mail p{
-                            display: block;
-                            }
+#btn_mail:hover #cta_mail p {
+                              display: block;
+                              }
 
 #btn_twitter {
               display: inline-block;
@@ -350,7 +332,7 @@ ul {
             height: 24px;
             }
 
-#cta_tweet p{
+#cta_tweet p {
               display: none;
               font-size: 1em;
               }
@@ -365,9 +347,9 @@ ul {
                     cursor: pointer;
                     }
 
-#btn_twitter:hover #cta_tweet p{
-                                display: block;
-                                }
+#btn_twitter:hover #cta_tweet p {
+                                  display: block;
+                                  }
 
 #btn_linkedin {
                 display: inline-block;
@@ -383,10 +365,10 @@ ul {
                 height: 24px;
                 }
 
-#cta_linkedin p{
-                display: none;
-                font-size: 1em;
-                }
+#cta_linkedin p {
+                  display: none;
+                  font-size: 1em;
+                  }
 
 #btn_linkedin:hover {
                       display: inline-block;
@@ -398,9 +380,9 @@ ul {
                       cursor: pointer;
                       }
 
-#btn_linkedin:hover #cta_linkedin p{
-                                  display: block;
-                                  }
+#btn_linkedin:hover #cta_linkedin p {
+                                    display: block;
+                                    }
 
 #btn_github {
                 display: inline-block;
@@ -416,7 +398,7 @@ ul {
               height: 24px;
               }
 
-#cta_github p{
+#cta_github p {
                 display: none;
                 font-size: 1em;
                 }
