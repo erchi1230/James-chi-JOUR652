@@ -79,6 +79,36 @@ h5 {
             font-size: 30px;
             }
 
+.navbar {
+          background-color: #4A4A4A;
+          }
+
+.navbar ul li {
+                color: white;
+                }
+
+.navbar-brand img {
+                    width: 80px;
+                    }
+
+.nav-link {
+            font-size: 16px;
+            }
+
+#nav_items {
+            float: right;
+            }
+
+#logo_nav {
+            width: 70px;
+
+            }
+
+#container {
+            position: relative;
+            top: 56px;
+            }
+
 #intro_container {
                   display: block;
                   padding: 90px 50px;
