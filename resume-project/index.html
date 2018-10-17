@@ -7,71 +7,257 @@
 
 		<title>James Chi Resume</title>
 
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<meta name="description" content="Bootstrap Resume">
+    <meta name="author" content="James Chi">
+
+		<!-- Bootstrap CSS-->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style_final.css">
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 	</head>
 
-	<body>
+	<body id="top">
 
 		<div id="container">
 
-			<div id="name">James Chi</div>
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-			<ul class="menu">
-				<li>ijuichi@umd.edu</li>
-				<li><a href="https://www.linkedin.com/in/ijuichi/">LinkedIn</a></li>
-				<li><a href="https://twitter.com/erchi1230">Twitter</a></li>
-				<li><a href="https://github.com/erchi1230">GitHub</a></li>
-			</ul>
+		    <div class="d-flex flex-grow-1">
+					<span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
 
-			<div id="title">UX Designer</div>
+					<a class="navbar-brand d-none d-lg-inline-block" href="#container">
+						<img src="img/logo_light.png" alt="logo" id="icon_nav">
+					</a>
 
-			<!-- <img id="profilePic" src="img/profile.png" alt="James photo"> !-->
+		      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#top">
+		        <img src="img/logo_light.png" alt="logo" id="logo_nav">
+		      </a>
 
-			<p class="top">I'm a highly motivated designer who aims to create simple, intuitive digital interactions through a human-centered approach. A proactive learner who advance career by learning more about design and technology through any reachable resource.</p>
+		      <div class="w-100 text-right">
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+	            <span class="navbar-toggler-icon"></span>
+						</button>
+		      </div>
+		    </div>
 
-			<div class="sectionheader">Experience</div>
+		    <div class="collapse navbar-collapse flex-grow-1 text-right justify-content-center" id="myNavbar">
+	        <ul class="navbar-nav ml-auto flex-nowrap">
+		           <li class="nav-item">
+		               <a href="#about_container" class="nav-link m-2 menu-item">ABOUT JAMES</a>
+		           </li>
+		           <li class="nav-item">
+		               <a href="#exp_container" class="nav-link m-2 menu-item">EXPERIENCE</a>
+		           </li>
+		           <li class="nav-item">
+		               <a href="#edu_container" class="nav-link m-2 menu-item">EDUCATION</a>
+		           </li>
+		           <li class="nav-item">
+		               <a href="#contact_container" class="nav-link m-2 menu-item">CONNECT WITH ME</a>
+		           </li>
+		       </ul>
+		    </div>
+			</nav>
 
-				<div class="jobtitle">UI/UX Design Intern</div>
-				<div class="organization">Contribulet Inc.</div>
-				<div class="date">5/2018 - 08/2018</div>
-				<p class="description">Here's the paragraph for the latest job description.</P>
+			<div id="intro_container">
 
-				<div class="jobtitle">Product Management Specialist</div>
-				<div class="organization">Rock Mobile Corporation</div>
-				<div class="date">01/2015 - 07/2017</div>
-				<p class="description">Designed and managed web-based platform and tools to operate a multi-million digital music business. Led cross-team communications, translating user needs and technical issues to stakeholders, including collaborators such as front-end developers, account managers, and operation specialists.</P>
+				<img id="logo" src="img/logo_light.png" alt="logo">
 
-				<div class="jobtitle">E-Commerce Platform Specialist</div>
-				<div class="organization">YAHOO Inc.</div>
-				<div class="date">08/2012 - 10/2014</div>
-				<p class="description">Developed web page content and templates for online marketing events of used cars, viewed by millions of buyers. Used web analytics tools to analyze users’ behavioral data and establish optimization plans based on insights.</P>
+				<h1 id="mainTitle">I'm a UX designer and I keep things simple.</h1>
 
-		<div class="sectionTitle">Education</div>
+			</div>
 
-			<ul id="degrees">
+			<div id="about_container">
 
-				<li>Master of Science, Human-Computer Interaction, University of Maryland, 2019</li>
+				<h2 class="sectionTitle">About James</h2>
 
-				<li>Bachelor of Arts, Communications, National Chengchi University, 2011</li>
+				<hr class="divider">
 
-			</ul>
+				<img id="profilePic" src="img/profile.png" alt="James photo">
 
-		<div class="sectionTitle">Skills</div>
+				<p id="selfIntro">I'm a highly motivated designer who aims to create simple, intuitive digital interactions through a human-centered approach. A proactive learner who advance career by learning more about design and technology through any reachable resource.</p>
 
-			<ul id="do">
+			</div>
 
-				<li>User Research: Conduct interviews, surveys to study user and collect data. Utilize methodologies such as affinity mapping, task analysis, empathy mapping to analyze research finding and form insights. Demonstrate usability testing, heuristic evaluation, and cognitive walkthrough for idea validation.</li>
+			<div id="exp_container">
 
-				<li>UX Design: Wireframing, Paper Prototyping, Interactive Prototyping, User Flow Diagrams, User Journey Mapping, Web/Mobile UI.</li>
+				<h2 class="sectionTitle">Experience</h2>
 
-				<li>Development: Experiences in HTML, CSS, and Javascript. Develop interactive web application and user interface using jQuery.</li>
+				<hr class="divider">
 
-			</ul>
+				<div class="exp_card col-md-9">
+
+					<div class="jobTitle col-md-2">
+						<h3>UI/UX Design Intern</h3>
+						<h4>Contribulet Inc.</h4>
+						<h4>5/2018 - 08/2018</h4>
+					</div>
+
+					<div class="jobDescribe col-md-7">
+						<p>Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.Here's the paragraph for the latest job description.</P>
+					</div>
+
+				</div>
+
+				<div class="exp_card col-md-9">
+
+					<div class="jobTitle">
+						<h3>Product Mgt. Specialist</h3>
+						<h4>Rock Mobile Corporation</h4>
+						<h4>01/2015 - 07/2017</h4>
+					</div>
+
+					<div class="jobDescribe">
+						<p>Designed and managed web-based platform and tools to operate a multi-million digital music business. Led cross-team communications, translating user needs and technical issues to stakeholders, including collaborators such as front-end developers, account managers, and operation specialists.</P>
+					</div>
+
+				</div>
+
+				<div class="exp_card col-md-9">
+
+					<div class="jobTitle">
+						<h3>E-Commerce Specialist</h3>
+						<h4>YAHOO Inc.</h4>
+						<h4>08/2012 - 10/2014</h4>
+					</div>
+
+					<div class="jobDescribe">
+						<p>Developed web page content and templates for online marketing events of used cars, viewed by millions of buyers. Used web analytics tools to analyze users’ behavioral data and establish optimization plans based on insights.</P>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="edu_container">
+
+				<h2 class="sectionTitle">Education</h2>
+
+				<hr class="divider">
+
+					<div class="col-md-5 edu_block">
+
+						<img class="school_logo" src="img/New_UMD_Globe.png" alt="">
+						<h3>Master of Science in Human-Computer Interaction</h3>
+						<h4>University of Maryland, 2019</h4>
+
+					</div>
+
+					<div class="col-md-5 edu_block">
+
+						<img class="school_logo" src="img/nccu_comm.gif" alt="">
+						<h3>Bachelor of Arts in Communications</h3>
+						<h4>National Chengchi University, 2011</h4>
+
+					</div>
+
+			</div>
+
+			<div id="skill_container">
+
+				<h2 class="sectionTitle">Skills</h2>
+
+				<hr class="divider">
+
+				<div id="skill_content">
+
+					<div class="skill_block">
+
+						<img src="img/outline-research.svg" alt="Research" class="skill_icons">
+
+						<div class="blockTag">Research</div>
+
+						<ul class="skill_list">
+							<li>Contextual Inquiry</li>
+							<li>Task Analysis</li>
+							<li>Empathy Mapping</li>
+							<li>User Journey Mapping</li>
+							<li>Usability Testing</li>
+							<li>Heuristic Evaluation</li>
+							<li>Cognitive Walkthrough</li>
+						</ul>
+
+					</div>
+
+					<div class="skill_block">
+
+						<img src="img/outline-design.svg" alt="Design" class="skill_icons">
+
+						<div class="blockTag">Design</div>
+
+						<ul class="skill_list">
+							<li>Wireframing</li>
+							<li>Paper Prototyping</li>
+							<li>Interactive Prototyping</li>
+							<li>User Flow Diagrams</li>
+							<li>Web/Mobile UI</li>
+						</ul>
+
+					</div>
+
+					<div class="skill_block">
+
+						<img src="img/outline_web_black_48pt_3x.png" alt="Development" class="skill_icons">
+
+						<div class="blockTag">Development</div>
+
+						<ul class="skill_list">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>jQuery</li>
+							<li>Bootstrap</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="contact_container">
+
+				<h2 class="sectionTitle">Connect with me</h2>
+
+				<hr class="divider_light">
+
+				<button id="btn_mail" class="col-md-2" onclick="window.open('mailto:ijuichi@umd.edu','_blank','resizable=yes')">
+					<img src="img/email.svg" alt="Email" class="icons">
+					<div id="cta_mail"><p>Send me a mail!</p></div>
+				</button>
+
+				<button id="btn_twitter" class="col-md-2" onclick="window.open('https://twitter.com/erchi1230','_blank','resizable=yes')">
+					<img src="img/twitter.svg" alt="Twitter" class="icons">
+					<div id="cta_tweet"><p>Follow me!</p></div>
+				</button>
+
+				<button id="btn_linkedin" class="col-md-2" onclick="window.open('https://www.linkedin.com/in/ijuichi/','_blank','resizable=yes')">
+					<img src="img/linkedin.svg" alt="LinkedIn" class="icons">
+					<div id="cta_linkedin"><p>Let's connect!</p></div>
+				</button>
+
+				<button id="btn_github" class="col-md-2" onclick="window.open('https://github.com/erchi1230','_blank','resizable=yes')">
+					<img src="img/github.svg" alt="Github" class="icons">
+					<div id="cta_github"><p>Hellow World!</p></div>
+				</button>
+
+				<footer>Copyright © James Chi 2018</footer>
+
+			</div>
 
 		</div>
-		
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
 	</body>
-<!--I MADE THIS!-->
 
 </html>
