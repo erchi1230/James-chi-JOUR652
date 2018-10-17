@@ -1,7 +1,10 @@
 #container {
             width: 850px;
             margin: 0 auto;
+            padding-bottom: 50px;
             }
+
+/* Set default style for the whole article*/
 
 p {
     font-family: Helvetica, Arial, Sans-serif;
@@ -17,6 +20,7 @@ h1 {
 h2 {
     font-family: Helvetica, Arial, Sans-serif;
     font-size: 25px;
+    margin-top: 40px;
     }
 
 h3 {
@@ -108,3 +112,10 @@ blockquote {
 .answer {
           margin: 10px 0px;
 }
+
+ul li {
+        margin: 10px 0px;
+        font-family: Helvetica, Arial, Sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        }
