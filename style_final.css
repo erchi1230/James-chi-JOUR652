@@ -107,7 +107,14 @@ h5 {
 
 #logo_nav {
             width: 70px;
+            }
 
+#icon_nav {
+            width: 70px;
+            }
+
+#selfIntro {
+            font-size: 1vh;
             }
 
 #container {
@@ -198,8 +205,7 @@ h5 {
 
 .jobTitle {
             display: inline-block;
-            width: 30%;
-            max-width: 30%;
+            min-width: 30%;
             float: left;
             box-sizing: border-box;
             }
