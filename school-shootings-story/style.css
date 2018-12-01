@@ -35,3 +35,59 @@ nav img {
 nav a {
         font-size: 1.25em;
         }
+
+.navbar-brand {
+                font-weight: 900;
+                }
+
+.hero-image {
+              width: 100%;
+              max-width: 900px;
+              display: block;
+              margin: 0 auto;
+              }
+
+.container {
+            font-family: 'Montserrat', sans-serif;
+            }
+
+#title {
+          text-align: center;
+          font-weight: 700;
+          font-size: 3em;
+          }
+
+#title_blue {
+              color: #0A54A3;
+              }
+
+#subtitle {
+            text-align: center;
+            margin: 25px 0px;
+            }
+
+#subtitle h6 {
+              font-weight: 700;
+              }
+
+#divider {
+          text-align: center;
+          }
+
+#divider img {
+              width: 20px;
+              margin: 5px;
+              }
+
+#intro {
+        font-family: 'Montserrat', sans-serif;
+        margin: 25px 0px;
+
+        }
+
+#intro p {
+          max-width: 800px;
+          margin: 0 auto;
+          font-size: 1.25em;
+          font-weight: 700;
+          }
