@@ -91,3 +91,18 @@ nav a {
           font-size: 1.25em;
           font-weight: 700;
           }
+
+footer {
+        background-color: black;
+        height: 100px;
+        padding: 25px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        }
+
+.row img {
+          width: 20px;
+          height: 20px;
+          margin: 5px;
+          }
