@@ -49,6 +49,7 @@ nav a {
 
 .container {
             font-family: 'Montserrat', sans-serif;
+            padding-bottom: 80px;
             }
 
 #title {
@@ -143,8 +144,8 @@ footer {
            max-width:900px;
            margin:0 auto;
            padding-bottom:30px;
-           font-family: 'Montserrat', sans-serif;
-           color:#999;
+           font-family: 'Montserrat', sans-serif !important;
+           color:#999 !important;
            }
 
 
@@ -166,3 +167,18 @@ footer {
 .graphic-container em {
                         font-weight: 700;
                         }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    p {
+        width: 50%;
+        }
+
+    img {
+          width: 50%;
+          }
+
+    .graphic-container {
+                        width: 50%;
+                        }
+}
