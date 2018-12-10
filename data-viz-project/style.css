@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
-
 .navbar {
           background-color:#FFD54D;
           text-decoration: none;
@@ -10,7 +8,7 @@
                   }
 
 ul.navbar-nav {
-                margin-left:20%;
+                margin-left:30%;
                 }
 
 .navbar-nav li {
@@ -19,7 +17,7 @@ ul.navbar-nav {
 
 .navbar a {
             color: black;
-            font-family: Oxygen, Helvetica, sans-serif;
+            font-family: Yantramanav, Helvetica, sans-serif;
             }
 
 .navbar-brand {
@@ -35,15 +33,15 @@ ul.navbar-nav {
 
 #title-icon {
               width: 30px;
-              margin-right: 15px;
+              margin-right: 10px;
               }
 
 .container  {
-            max-width: 1000px;
+            max-width: 1100px;
             width: 100%;
             margin: 0 auto;
-            padding: 40px 0px 70px 0px;
-            font-family: Oxygen, Helvetica, sans-serif;
+            padding: 20px 0px 70px 0px;
+            font-family: Yantramanav, Helvetica, sans-serif;
             }
 
 a.anchor {
@@ -66,14 +64,15 @@ a.anchor {
             display: block;
             text-align: center;
             margin: 30px 0px;
-            font-size: 3em;
+            font-size: 4em;
             font-weight: 600;
+            font-family: Yantramanav, Helvetica, sans-serif;
             }
 
 #subline  {
             display: block;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             font-size: 2em;
             font-weight: 300;
             }
@@ -81,16 +80,21 @@ a.anchor {
 #byline {
           display: block;
           text-align: center;
-          margin-bottom: 50px;
           font-size: 1.3em;
           font-weight: 100;
           }
+
+.paw_divide {
+              width: 120px;
+              margin: 0 auto;
+              padding: 50px 0px;
+              }
 
 .chapter_head {
                 width: 60%;
                 margin: 0 auto;
                 margin-bottom: 20px;
-                font-size: 1.5em;
+                font-size: 1.8em;
                 font-weight: 700;
                 }
 
@@ -105,7 +109,7 @@ a.anchor {
 .figure {
           display: block;
           margin: 0 auto;
-          margin: 40px 0px;
+          padding-top: 10px;
           }
 
 img {
