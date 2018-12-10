@@ -34,6 +34,7 @@ ul.navbar-nav {
 #title-icon {
               width: 30px;
               margin-right: 10px;
+              padding-bottom: 4px;
               }
 
 .container  {
@@ -103,7 +104,7 @@ a.anchor {
               margin: 0 auto;
               font-size: 1.1em;
               font-family: Georgia, Times, serif;
-              margin-bottom: 20px;
+              margin-bottom: 30px;
               }
 
 .figure {
@@ -111,6 +112,11 @@ a.anchor {
           margin: 0 auto;
           padding-top: 10px;
           }
+
+.blankSpace {
+              display: block;
+              height: 30px;
+              }
 
 img {
       display: block;
