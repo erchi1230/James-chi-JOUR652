@@ -104,19 +104,19 @@ a.anchor {
               margin: 0 auto;
               font-size: 1.1em;
               font-family: Georgia, Times, serif;
-              margin-bottom: 30px;
+
               }
 
 .figure {
           display: block;
           margin: 0 auto;
-          padding-top: 10px;
+          margin-top: 30px;
           text-align: center;
           }
 
 .figure img {
               display: inline-block;
-              width: 35%;
+              width: 70%;
               }
 
 .blankSpace {
@@ -126,11 +126,9 @@ a.anchor {
 
 .highlight {
             text-align: center;
-            margin-top: 40px;
             margin-bottom: 40px;
             font-size: 1.8em;
             font-weight: 700;
-            color: #FFD54D;
             }
 
 .raiser_card {
@@ -139,43 +137,50 @@ a.anchor {
               margin: 0 auto;
               }
 
+.raiser_tag {
+              display: block;
+              padding: 10px 10px 10px 20px;
+              background-color: #72b4e7;
+              }
+
+.raiser_tag h3 {
+                  display: inline-block;
+                  margin: 0px;
+                  }
+
 .raiser_pic {
               display: inline-block;
               width: 35%;
-
               }
 
 .raiser_info {
               display: inline-block;
               vertical-align: top;
-              padding: 20px;
+              padding-left: 20px;
+              padding-top: 20px;
               max-width: 63%;
               }
 
-.raiser_info h3 {
-                  display: inline-block;
-                  margin-bottom: 30px;
-                  }
-
 .raiser_info p {
                 font-family: Georgia, Times, serif;
-
                   }
 
 .raiser_icon {
-              width: 35px;
+              width: 33px;
               margin-right: 10px;
-              padding-bottom: 8px;
               display: inline;
+              vertical-align: top;
               }
 
 .quesiton {
             font-weight: 500;
             font-size: 1.2em;
+            margin-bottom: 10px;
             }
 
 .answer {
           color: #4A4A4A;
+          margin-bottom: 20px;
           }
 
 img {
