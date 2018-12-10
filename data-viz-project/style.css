@@ -111,7 +111,13 @@ a.anchor {
           display: block;
           margin: 0 auto;
           padding-top: 10px;
+          text-align: center;
           }
+
+.figure img {
+              display: inline-block;
+              width: 35%;
+              }
 
 .blankSpace {
               display: block;
