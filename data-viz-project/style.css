@@ -114,10 +114,12 @@ a.anchor {
           text-align: center;
           }
 
-.figure img {
-              display: inline-block;
-              width: 70%;
-              }
+
+
+.cute {
+        width: 35%;
+        display: inline-block;
+        }
 
 .blankSpace {
               display: block;
@@ -184,7 +186,7 @@ a.anchor {
           }
 
 img {
-      display: block;
+     display: block;
       width: 70%;
       margin: 0 auto;
       }
