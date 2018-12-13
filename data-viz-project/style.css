@@ -162,8 +162,7 @@ a.anchor {
 .raiser_info {
               display: inline-block;
               vertical-align: top;
-              padding-left: 20px;
-              padding-top: 20px;
+              padding: 20px;
               max-width: 63%;
               }
 
@@ -188,6 +187,20 @@ a.anchor {
           color: #4A4A4A;
           margin-bottom: 20px;
           }
+
+.graphic-container {
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align: center;
+                    }
+
+#disChart {
+            margin: 20px 0px;
+            }
+
+#pieChart {
+            margin: 20px 0px;
+            }
 
 img {
      display: block;

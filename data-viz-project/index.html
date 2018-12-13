@@ -170,6 +170,28 @@
 
       </div>
 
+      <div class="blankSpace"></div>
+
+      <div class="raiser_card">
+
+        <div class="raiser_tag">
+          <img src="img/dog-training.png" class="raiser_icon"><h3>Kim & Crosby</h3>
+        </div>
+
+        <img src="img/IMG_0530.jpg" alt="Kim and Crosby" class="raiser_pic">
+
+        <div class="raiser_info">
+
+          <p class="quesiton">Q: Why joining Terps Raise Pups?</p>
+          <p class="answer">I've always liked dogs and I've always wanted to have one. He's my first dog from this program on campus. At first, I thought it would be too much work, but it was really fun to have a dog with you in school all the time.</p>
+
+          <p class="quesiton">Q: How's the experiences so far?</p>
+          <p class="answer">It's really cool. You'll get lots of attention, which I wasn't used to. It was super hard at first because he's like tiny little puppies, but it was really fun and it was really nice to meet people, like, being involved in it.</p>
+
+        </div>
+
+      </div>
+
       <img src="img/paw.png" class="paw_divide">
 
       <a name="4" class="anchor"></a>
@@ -251,9 +273,24 @@
 
       <img src="img/paw.png" class="paw_divide">
 
-      <h2 class="highlight">Quick facts about guide dogs</h2>
+      <h2 class="highlight">Why we need more guide dogs?</h2>
 
+      <div class="graphic-container">
+        <h4>Visual disability has lowest prevalence rate among disabilities</h4>
+        <div id="disChart"></div>
+          <em>Source: Data collected by Cornell University</em>
+      </div>
 
+      <div class="blankSpace"></div>
+      <div class="blankSpace"></div>
+
+      <div class="graphic-container">
+        <h4>However, only 2% of the visually impaired population has guide dog</h4>
+        <div id="pieChart"></div>
+          <em>Source: National Foundation of Blind</em>
+      </div>
+
+      <img src="img/paw.png" class="paw_divide">
 
       <a name="6" class="anchor"></a>
 
@@ -278,6 +315,50 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+      //CHART 1
+      var chart1 = c3.generate({
+        bindto: '#disChart',
+        data: {
+          columns: [
+            ['Ambulatory Disability', 7.1],
+            ['Independent Living Disability', 5.7],
+            ['Cognitive Disability', 5.2],
+            ['Hearing Disability', 3.6],
+            ['Self-Care Disability', 2.7],
+            ['Visual Disability', 2.4]
+          ],
+          type: 'bar'
+        },
+
+        color: {
+          pattern: ['#2a8dc5', '#138d90', '#001871', '#43bcff', '#ffb743', '#e95b4f']
+        }
+      });
+
+      var chart2 = c3.generate({
+        bindto: '#pieChart',
+        data: {
+        // iris data from R
+        columns: [
+          ['Visually impaired people with guide dogs', 2],
+          ['Those without guide dogs', 98],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+        }
+      });
+
+    </script>
+
 
   </body>
 
